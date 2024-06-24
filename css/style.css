@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background-color: rgba(28, 170, 83, 0.9);
+    backdrop-filter: blur(16px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    transition: 0.15s ease;
+}
+
+.logo:hover {
+    color: darkblue;
+    text-shadow: 0 0 25px darkblue,
+        0 0 50px darkblue;
+    transform: scale(1.1);
+}
+
+span {
+    color: darkblue;
+}
+
+.navbar a {
+    font-size: 19px;
+    color: darkblue;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    text-decoration: none;
+
+}
+
+.navbar a:hover{
+    color: blue;
+    border-bottom: 2px solid ;
+
+}
+
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(4, 228, 217, 0.842);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.home-content {
+    max-width: 800px;
+}
+
+.home-content h3 {
+    font-size: 42px;
+}
+
+.home-content h1 {
+    font-size: 62px;
+    line-height: 1.2;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+.btn-box {
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+
+.btn-ex {
+    padding: 15px 28px;
+    background-color: darkblue;
+    color: white;
+    border: 2px solid rgb(10, 118, 168);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 800;
+    transition: 0.15s ease;
+    cursor: pointer;
+}
+
+.btn-ex:hover {
+    background-color: white;
+    color: black;
+}
+
+.img-box img {
+    border-radius: 50%;
+    width: 450px;
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: black;
+}
+
+.about-img img {
+    position: relative;
+    width: 500px;
+    height: px;
+    border-radius: 50%;
+
+}
+
+.about-content h2 {
+    text-decoration: left;
+    color: white;
+    font-size: 42px;
+}
+
+.about-content span {
+    color: rgb(241, 245, 5);
+    font-weight: bold;
+}
+
+.about-content h3 {
+    font-size: 62px;
+    color: white;
+}
+
+.about-content p {
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+}
+
+.contact-form form {
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.contact-form form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-form form .input-box input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background: rgba(236, 232, 232, 0.5);
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+footer .social a {
+    font-size: 24px;
+    color: white;
+    border: 2px solid blue;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    transition: 0.3s ease;
+}
+
+.footer .social a:hover {
+    transform: scale(1.1)translateY(-10px);
+    color: lightgreen;
+    border: 2px solid blue;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.footer ul li a {
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    text-decoration: none;
+    row-gap: 5px;
+}
+
+.footer ul li a:hover {
+    border-bottom: 3px solid blue;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
